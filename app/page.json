@@ -1,0 +1,245 @@
+{
+  "root": {
+    "props": {
+      "title": "Acme — The future of productivity"
+    }
+  },
+  "content": [
+    {
+      "type": "Navbar",
+      "props": {
+        "brand": "Acme",
+        "links": [
+          { "label": "Features", "href": "#features" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Testimonials", "href": "#testimonials" },
+          { "label": "Team", "href": "#team" }
+        ],
+        "ctaLabel": "Get Started",
+        "ctaHref": "#cta",
+        "id": "Navbar-a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "eyebrow": "Introducing Acme",
+        "heading": "The future of\nproductivity.",
+        "subheading": "A radically new way to build, collaborate, and ship. Designed for teams who refuse to compromise.",
+        "primaryCtaLabel": "Get Started Free",
+        "primaryCtaHref": "#cta",
+        "secondaryCtaLabel": "Watch the film",
+        "secondaryCtaHref": "#features",
+        "image": "",
+        "id": "Hero-b2c3d4e5-f6a7-8901-bcde-f12345678901"
+      }
+    },
+    {
+      "type": "Logos",
+      "props": {
+        "heading": "Trusted by teams at the world's best companies",
+        "logos": [
+          { "name": "Google", "icon": "RiGoogleFill" },
+          { "name": "Apple", "icon": "RiAppleFill" },
+          { "name": "GitHub", "icon": "RiGithubFill" },
+          { "name": "Slack", "icon": "RiSlackFill" },
+          { "name": "Twitter", "icon": "RiTwitterXFill" },
+          { "name": "Amazon", "icon": "RiAmazonFill" }
+        ],
+        "id": "Logos-c3d4e5f6-a7b8-9012-cdef-123456789012"
+      }
+    },
+    {
+      "type": "Features",
+      "props": {
+        "eyebrow": "Features",
+        "heading": "Engineered for\nexcellence.",
+        "subheading": "Every detail has been considered. Every interaction refined. Built from the ground up to be the tool you've always wanted.",
+        "features": [
+          { "icon": "RiFlashlightLine", "title": "Lightning Performance", "description": "Sub-second load times with edge-optimized delivery. Your users feel the difference instantly." },
+          { "icon": "RiShieldCheckLine", "title": "Secure by Design", "description": "Enterprise-grade encryption, SOC 2 compliance, and automatic threat detection built into every layer." },
+          { "icon": "RiBarChartBoxLine", "title": "Real-time Analytics", "description": "Live dashboards with actionable insights. Understand your users and make data-driven decisions." },
+          { "icon": "RiPlugLine", "title": "Seamless Integrations", "description": "Connect with 200+ tools out of the box. REST and GraphQL APIs for everything else." },
+          { "icon": "RiPaletteLine", "title": "Fully Customizable", "description": "White-label ready with complete theme control. Make it yours down to the last pixel." },
+          { "icon": "RiRocketLine", "title": "One-click Deploy", "description": "Push to production in seconds with zero-downtime deployments and automatic rollbacks." }
+        ],
+        "id": "Features-d4e5f6a7-b8c9-0123-def0-234567890123"
+      }
+    },
+    {
+      "type": "Testimonials",
+      "props": {
+        "eyebrow": "Testimonials",
+        "heading": "Loved by the people\nwho use it most.",
+        "subheading": "Don't just take our word for it.",
+        "testimonials": [
+          {
+            "quote": "The best tool we've adopted this year. It saved our engineering team over 200 hours in the first quarter alone. The ROI was immediate and undeniable.",
+            "name": "Sarah Chen",
+            "role": "VP of Engineering, TechCorp",
+            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=SC",
+            "rating": 5
+          },
+          {
+            "quote": "Incredible product with outstanding support. Our team productivity has increased by 40% since we made the switch. Can't imagine going back to the old way.",
+            "name": "Marcus Johnson",
+            "role": "Product Manager, Innovate Co.",
+            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=MJ",
+            "rating": 5
+          },
+          {
+            "quote": "Simple, powerful, and reliable. It just works exactly as promised, every single time. This is what software should feel like in 2026.",
+            "name": "Emily Rodriguez",
+            "role": "CTO, StartupXYZ",
+            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=ER",
+            "rating": 5
+          },
+          {
+            "quote": "We evaluated a dozen solutions before choosing this one. The developer experience is unmatched and the documentation is genuinely world-class.",
+            "name": "David Park",
+            "role": "Lead Developer, CloudScale",
+            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=DP",
+            "rating": 5
+          },
+          {
+            "quote": "From onboarding to daily use, everything is seamless. Our design team ships twice as fast now. It's become essential infrastructure for us.",
+            "name": "Priya Sharma",
+            "role": "Head of Design, Pixelwork",
+            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=PS",
+            "rating": 5
+          },
+          {
+            "quote": "The integration capabilities alone make this worth every penny. We connected our entire stack in under a day. Truly impressive engineering work.",
+            "name": "James O'Brien",
+            "role": "Engineering Manager, FinFlow",
+            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=JO",
+            "rating": 5
+          }
+        ],
+        "id": "Testimonials-e5f6a7b8-c9d0-1234-ef01-345678901234"
+      }
+    },
+    {
+      "type": "Pricing",
+      "props": {
+        "eyebrow": "Pricing",
+        "heading": "Choose your plan.",
+        "subheading": "Start free. Upgrade when you're ready. No hidden fees, cancel anytime.",
+        "tiers": [
+          {
+            "name": "Starter",
+            "price": "$9",
+            "period": "/month",
+            "description": "Perfect for individuals and small projects.",
+            "features": ["Up to 3 projects", "Basic analytics", "Email support", "1 GB storage"],
+            "ctaLabel": "Start Free Trial",
+            "popular": false
+          },
+          {
+            "name": "Pro",
+            "price": "$29",
+            "period": "/month",
+            "description": "For growing teams that need more power.",
+            "features": ["Unlimited projects", "Advanced analytics", "Priority support", "10 GB storage", "Custom integrations", "Team collaboration"],
+            "ctaLabel": "Get Started",
+            "popular": true
+          },
+          {
+            "name": "Enterprise",
+            "price": "$99",
+            "period": "/month",
+            "description": "For large organizations with custom needs.",
+            "features": ["Everything in Pro", "Dedicated account manager", "Custom SLA", "Unlimited storage", "SSO & SAML", "Audit logs"],
+            "ctaLabel": "Contact Sales",
+            "popular": false
+          }
+        ],
+        "id": "Pricing-f6a7b8c9-d0e1-2345-f012-456789012345"
+      }
+    },
+    {
+      "type": "CTA",
+      "props": {
+        "heading": "Start building today",
+        "subheading": "Join thousands of teams already using Acme to ship faster. Get early access and exclusive updates.",
+        "placeholder": "Enter your email",
+        "buttonLabel": "Subscribe",
+        "disclaimer": "Free forever for small teams. No credit card required.",
+        "id": "CTA-a7b8c9d0-e1f2-3456-0123-567890123456"
+      }
+    },
+    {
+      "type": "Team",
+      "props": {
+        "eyebrow": "Team",
+        "heading": "The people behind\nthe product.",
+        "subheading": "A world-class team obsessed with craft, quality, and impact.",
+        "members": [
+          {
+            "name": "Alex Morgan",
+            "role": "CEO & Co-founder",
+            "bio": "Visionary leader with 15 years building products at scale.",
+            "avatar": ""
+          },
+          {
+            "name": "Jordan Lee",
+            "role": "CTO & Co-founder",
+            "bio": "Full-stack engineer and distributed systems architect.",
+            "avatar": ""
+          },
+          {
+            "name": "Taylor Kim",
+            "role": "Head of Design",
+            "bio": "Creating intuitive, beautiful experiences for over a decade.",
+            "avatar": ""
+          },
+          {
+            "name": "Casey Rivera",
+            "role": "Head of Engineering",
+            "bio": "Scaling high-performance teams and mission-critical systems.",
+            "avatar": ""
+          }
+        ],
+        "id": "Team-b8c9d0e1-f2a3-4567-1234-678901234567"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "brand": "Acme",
+        "tagline": "Building the future of work.",
+        "columns": [
+          {
+            "title": "Product",
+            "links": [
+              { "label": "Features", "href": "#features" },
+              { "label": "Pricing", "href": "#pricing" },
+              { "label": "Changelog", "href": "#" },
+              { "label": "Docs", "href": "#" }
+            ]
+          },
+          {
+            "title": "Company",
+            "links": [
+              { "label": "About", "href": "#" },
+              { "label": "Blog", "href": "#" },
+              { "label": "Careers", "href": "#" },
+              { "label": "Contact", "href": "#" }
+            ]
+          },
+          {
+            "title": "Legal",
+            "links": [
+              { "label": "Privacy", "href": "#" },
+              { "label": "Terms", "href": "#" },
+              { "label": "Cookies", "href": "#" }
+            ]
+          }
+        ],
+        "copyright": "© 2026 Acme. All rights reserved.",
+        "id": "Footer-c9d0e1f2-a3b4-5678-2345-789012345678"
+      }
+    }
+  ],
+  "zones": {}
+}
