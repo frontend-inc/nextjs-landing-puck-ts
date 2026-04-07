@@ -22,6 +22,7 @@ export default {
           type: "text",
         },
       },
+      getItemSummary: (item: { name: string }) => item.name || "Logo",
     },
   },
   defaultProps: {
