@@ -25,7 +25,7 @@ export default {
   },
   defaultProps: {
     eyebrow: "Testimonials",
-    heading: "Loved by the people\nwho use it most.",
+    heading: "Loved by the people who use it most.",
     subheading: "Don't just take our word for it.",
   },
   render: Testimonials,

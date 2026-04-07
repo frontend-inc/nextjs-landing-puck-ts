@@ -44,7 +44,7 @@ export default {
   },
   defaultProps: {
     eyebrow: "Team",
-    heading: "The people behind\nthe product.",
+    heading: "The people behind the product.",
     subheading: "A world-class team obsessed with craft, quality, and impact.",
     members: [
       {

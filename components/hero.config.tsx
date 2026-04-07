@@ -14,6 +14,11 @@ export default {
       type: "text",
       contentEditable: true,
     },
+    headingAccent: {
+      label: "Heading Accent (gradient text)",
+      type: "text",
+      contentEditable: true,
+    },
     subheading: {
       label: "Subheading",
       type: "text",
@@ -44,7 +49,8 @@ export default {
   },
   defaultProps: {
     eyebrow: "Introducing Acme",
-    heading: "The future of\nproductivity.",
+    heading: "The future of",
+    headingAccent: "productivity.",
     subheading:
       "A radically new way to build, collaborate, and ship. Designed for teams who refuse to compromise.",
     primaryCtaLabel: "Get Started Free",

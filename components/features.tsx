@@ -9,24 +9,19 @@ interface FeaturesProps {
 
 export default function Features({
   eyebrow = "Features",
-  heading = "Engineered for\nexcellence.",
+  heading = "Engineered for excellence.",
   subheading = "Every detail has been considered. Every interaction refined. Built from the ground up to be the tool you've always wanted.",
   content: Content,
 }: FeaturesProps) {
   return (
     <section id="features" className="section-dark bg-background py-32 lg:py-40">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="mx-auto mb-20 max-w-2xl text-center">
+        <div className="mx-auto mb-20 max-w-xl text-center">
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">
             {eyebrow}
           </p>
           <h2 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-[3.5rem] lg:leading-[1.08]">
-            {heading.split('\n').map((line, i) => (
-              <span key={i}>
-                {line}
-                {i < heading.split('\n').length - 1 && <br />}
-              </span>
-            ))}
+            {heading}
           </h2>
           <p className="mt-6 text-[17px] leading-relaxed text-muted-foreground">
             {subheading}

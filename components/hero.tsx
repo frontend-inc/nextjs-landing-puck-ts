@@ -4,6 +4,7 @@ import { RiArrowRightLine, RiImageLine } from "@remixicon/react";
 interface HeroProps {
   eyebrow: string;
   heading: string;
+  headingAccent: string;
   subheading: string;
   primaryCtaLabel: string;
   primaryCtaHref: string;
@@ -14,7 +15,8 @@ interface HeroProps {
 
 export default function Hero({
   eyebrow = "Introducing Acme",
-  heading = "The future of\nproductivity.",
+  heading = "The future of",
+  headingAccent = "productivity.",
   subheading = "A radically new way to build, collaborate, and ship. Designed for teams who refuse to compromise.",
   primaryCtaLabel = "Get Started Free",
   primaryCtaHref = "#cta",
@@ -30,18 +32,15 @@ export default function Hero({
             {eyebrow}
           </p>
           <h1 className="font-heading text-5xl font-bold leading-[1.05] tracking-tight text-foreground sm:text-7xl lg:text-[5.5rem]">
-            {heading.split('\n').map((line, i) => (
-              <span key={i}>
-                {i === 1 ? (
-                  <span className="text-gradient bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to">
-                    {line}
-                  </span>
-                ) : (
-                  line
-                )}
-                {i < heading.split('\n').length - 1 && <br />}
-              </span>
-            ))}
+            {heading}
+            {headingAccent && (
+              <>
+                <br />
+                <span className="text-gradient bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to">
+                  {headingAccent}
+                </span>
+              </>
+            )}
           </h1>
           <p className="mx-auto mt-8 max-w-lg text-[17px] leading-relaxed text-muted-foreground">
             {subheading}

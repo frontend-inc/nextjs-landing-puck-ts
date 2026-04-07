@@ -24,7 +24,8 @@
       "type": "Hero",
       "props": {
         "eyebrow": "Introducing Acme",
-        "heading": "The future of\nproductivity.",
+        "heading": "The future of",
+        "headingAccent": "productivity.",
         "subheading": "A radically new way to build, collaborate, and ship. Designed for teams who refuse to compromise.",
         "primaryCtaLabel": "Get Started Free",
         "primaryCtaHref": "#cta",
@@ -53,15 +54,15 @@
       "type": "Features",
       "props": {
         "eyebrow": "Features",
-        "heading": "Engineered for\nexcellence.",
+        "heading": "Engineered for excellence.",
         "subheading": "Every detail has been considered. Every interaction refined. Built from the ground up to be the tool you've always wanted.",
-        "features": [
-          { "icon": "RiFlashlightLine", "title": "Lightning Performance", "description": "Sub-second load times with edge-optimized delivery. Your users feel the difference instantly." },
-          { "icon": "RiShieldCheckLine", "title": "Secure by Design", "description": "Enterprise-grade encryption, SOC 2 compliance, and automatic threat detection built into every layer." },
-          { "icon": "RiBarChartBoxLine", "title": "Real-time Analytics", "description": "Live dashboards with actionable insights. Understand your users and make data-driven decisions." },
-          { "icon": "RiPlugLine", "title": "Seamless Integrations", "description": "Connect with 200+ tools out of the box. REST and GraphQL APIs for everything else." },
-          { "icon": "RiPaletteLine", "title": "Fully Customizable", "description": "White-label ready with complete theme control. Make it yours down to the last pixel." },
-          { "icon": "RiRocketLine", "title": "One-click Deploy", "description": "Push to production in seconds with zero-downtime deployments and automatic rollbacks." }
+        "content": [
+          { "type": "Feature Card", "props": { "icon": "RiFlashlightLine", "title": "Lightning Performance", "description": "Sub-second load times with edge-optimized delivery. Your users feel the difference instantly." } },
+          { "type": "Feature Card", "props": { "icon": "RiShieldCheckLine", "title": "Secure by Design", "description": "Enterprise-grade encryption, SOC 2 compliance, and automatic threat detection built into every layer." } },
+          { "type": "Feature Card", "props": { "icon": "RiBarChartBoxLine", "title": "Real-time Analytics", "description": "Live dashboards with actionable insights. Understand your users and make data-driven decisions." } },
+          { "type": "Feature Card", "props": { "icon": "RiPlugLine", "title": "Seamless Integrations", "description": "Connect with 200+ tools out of the box. REST and GraphQL APIs for everything else." } },
+          { "type": "Feature Card", "props": { "icon": "RiPaletteLine", "title": "Fully Customizable", "description": "White-label ready with complete theme control. Make it yours down to the last pixel." } },
+          { "type": "Feature Card", "props": { "icon": "RiRocketLine", "title": "One-click Deploy", "description": "Push to production in seconds with zero-downtime deployments and automatic rollbacks." } }
         ],
         "id": "Features-d4e5f6a7-b8c9-0123-def0-234567890123"
       }
@@ -70,51 +71,15 @@
       "type": "Testimonials",
       "props": {
         "eyebrow": "Testimonials",
-        "heading": "Loved by the people\nwho use it most.",
+        "heading": "Loved by the people who use it most.",
         "subheading": "Don't just take our word for it.",
-        "testimonials": [
-          {
-            "quote": "The best tool we've adopted this year. It saved our engineering team over 200 hours in the first quarter alone. The ROI was immediate and undeniable.",
-            "name": "Sarah Chen",
-            "role": "VP of Engineering, TechCorp",
-            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=SC",
-            "rating": 5
-          },
-          {
-            "quote": "Incredible product with outstanding support. Our team productivity has increased by 40% since we made the switch. Can't imagine going back to the old way.",
-            "name": "Marcus Johnson",
-            "role": "Product Manager, Innovate Co.",
-            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=MJ",
-            "rating": 5
-          },
-          {
-            "quote": "Simple, powerful, and reliable. It just works exactly as promised, every single time. This is what software should feel like in 2026.",
-            "name": "Emily Rodriguez",
-            "role": "CTO, StartupXYZ",
-            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=ER",
-            "rating": 5
-          },
-          {
-            "quote": "We evaluated a dozen solutions before choosing this one. The developer experience is unmatched and the documentation is genuinely world-class.",
-            "name": "David Park",
-            "role": "Lead Developer, CloudScale",
-            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=DP",
-            "rating": 5
-          },
-          {
-            "quote": "From onboarding to daily use, everything is seamless. Our design team ships twice as fast now. It's become essential infrastructure for us.",
-            "name": "Priya Sharma",
-            "role": "Head of Design, Pixelwork",
-            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=PS",
-            "rating": 5
-          },
-          {
-            "quote": "The integration capabilities alone make this worth every penny. We connected our entire stack in under a day. Truly impressive engineering work.",
-            "name": "James O'Brien",
-            "role": "Engineering Manager, FinFlow",
-            "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=JO",
-            "rating": 5
-          }
+        "content": [
+          { "type": "Testimonial Card", "props": { "quote": "The best tool we've adopted this year. It saved our engineering team over 200 hours in the first quarter alone. The ROI was immediate and undeniable.", "name": "Sarah Chen", "role": "VP of Engineering, TechCorp", "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=SC", "rating": 5 } },
+          { "type": "Testimonial Card", "props": { "quote": "Incredible product with outstanding support. Our team productivity has increased by 40% since we made the switch. Can't imagine going back to the old way.", "name": "Marcus Johnson", "role": "Product Manager, Innovate Co.", "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=MJ", "rating": 5 } },
+          { "type": "Testimonial Card", "props": { "quote": "Simple, powerful, and reliable. It just works exactly as promised, every single time. This is what software should feel like in 2026.", "name": "Emily Rodriguez", "role": "CTO, StartupXYZ", "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=ER", "rating": 5 } },
+          { "type": "Testimonial Card", "props": { "quote": "We evaluated a dozen solutions before choosing this one. The developer experience is unmatched and the documentation is genuinely world-class.", "name": "David Park", "role": "Lead Developer, CloudScale", "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=DP", "rating": 5 } },
+          { "type": "Testimonial Card", "props": { "quote": "From onboarding to daily use, everything is seamless. Our design team ships twice as fast now. It's become essential infrastructure for us.", "name": "Priya Sharma", "role": "Head of Design, Pixelwork", "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=PS", "rating": 5 } },
+          { "type": "Testimonial Card", "props": { "quote": "The integration capabilities alone make this worth every penny. We connected our entire stack in under a day. Truly impressive engineering work.", "name": "James O'Brien", "role": "Engineering Manager, FinFlow", "avatar": "https://placehold.co/80x80/1e293b/e2e8f0?text=JO", "rating": 5 } }
         ],
         "id": "Testimonials-e5f6a7b8-c9d0-1234-ef01-345678901234"
       }
@@ -172,7 +137,7 @@
       "type": "Team",
       "props": {
         "eyebrow": "Team",
-        "heading": "The people behind\nthe product.",
+        "heading": "The people behind the product.",
         "subheading": "A world-class team obsessed with craft, quality, and impact.",
         "members": [
           {
@@ -240,6 +205,5 @@
         "id": "Footer-c9d0e1f2-a3b4-5678-2345-789012345678"
       }
     }
-  ],
-  "zones": {}
+  ]
 }

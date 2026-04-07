@@ -25,7 +25,7 @@ export default {
   },
   defaultProps: {
     eyebrow: "Features",
-    heading: "Engineered for\nexcellence.",
+    heading: "Engineered for excellence.",
     subheading:
       "Every detail has been considered. Every interaction refined. Built from the ground up to be the tool you've always wanted.",
   },
