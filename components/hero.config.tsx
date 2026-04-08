@@ -57,7 +57,7 @@ export default {
     primaryCtaHref: "#cta",
     secondaryCtaLabel: "Watch the film",
     secondaryCtaHref: "#features",
-    image: "",
+    image: "https://sb.frontend.co/storage/v1/object/public/assets/hero.avif",
   },
   render: Hero,
 };
