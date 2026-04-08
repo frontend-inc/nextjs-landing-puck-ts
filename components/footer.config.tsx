@@ -24,7 +24,7 @@ export default {
     },
   },
   defaultProps: {
-    brand: "Acme",
+    brand: "ACME",
     tagline: "Building the future of work, one tool at a time.",
     content: [
       {

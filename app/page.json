@@ -171,7 +171,7 @@
     {
       "type": "Footer",
       "props": {
-        "brand": "Acme",
+        "brand": "ACME",
         "tagline": "Building the future of work.",
         "content": [
           { "type": "FooterLinks", "props": { "id": "FooterLinks-001", "title": "Product", "links": [{ "label": "Features", "href": "#features" }, { "label": "Pricing", "href": "#pricing" }, { "label": "Changelog", "href": "#" }, { "label": "Docs", "href": "#" }] } },
