@@ -9,6 +9,7 @@ import Pricing from "@/components/pricing";
 import Cta from "@/components/cta";
 import Team from "@/components/team";
 import Footer from "@/components/footer";
+import FooterLinks from "@/components/footer-links";
 import React from "react";
 
 function FeatureCards({ style, className }: { style?: React.CSSProperties; className?: string }) {
@@ -48,7 +49,7 @@ export default function Home() {
       <Pricing />
       <Cta />
       <Team />
-      <Footer />
+      <Footer content={FooterContent} />
     </div>
   );
 }

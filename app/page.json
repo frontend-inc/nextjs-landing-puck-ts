@@ -173,33 +173,10 @@
       "props": {
         "brand": "Acme",
         "tagline": "Building the future of work.",
-        "columns": [
-          {
-            "title": "Product",
-            "links": [
-              { "label": "Features", "href": "#features" },
-              { "label": "Pricing", "href": "#pricing" },
-              { "label": "Changelog", "href": "#" },
-              { "label": "Docs", "href": "#" }
-            ]
-          },
-          {
-            "title": "Company",
-            "links": [
-              { "label": "About", "href": "#" },
-              { "label": "Blog", "href": "#" },
-              { "label": "Careers", "href": "#" },
-              { "label": "Contact", "href": "#" }
-            ]
-          },
-          {
-            "title": "Legal",
-            "links": [
-              { "label": "Privacy", "href": "#" },
-              { "label": "Terms", "href": "#" },
-              { "label": "Cookies", "href": "#" }
-            ]
-          }
+        "content": [
+          { "type": "FooterLinks", "props": { "id": "FooterLinks-001", "title": "Product", "links": [{ "label": "Features", "href": "#features" }, { "label": "Pricing", "href": "#pricing" }, { "label": "Changelog", "href": "#" }, { "label": "Docs", "href": "#" }] } },
+          { "type": "FooterLinks", "props": { "id": "FooterLinks-002", "title": "Company", "links": [{ "label": "About", "href": "#" }, { "label": "Blog", "href": "#" }, { "label": "Careers", "href": "#" }, { "label": "Contact", "href": "#" }] } },
+          { "type": "FooterLinks", "props": { "id": "FooterLinks-003", "title": "Legal", "links": [{ "label": "Privacy", "href": "#" }, { "label": "Terms", "href": "#" }, { "label": "Cookies", "href": "#" }] } }
         ],
         "copyright": "© 2026 Acme. All rights reserved.",
         "id": "Footer-c9d0e1f2-a3b4-5678-2345-789012345678"

@@ -25,14 +25,17 @@ export default function Footer({
               {tagline}
             </p>
           </div>
-          {Content && (
-            <Content
-              style={{
-                display: "contents",
-              }}
-            />
-          )}
         </div>
+        {Content && (
+          <Content
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: "40px",
+            }}
+            className="mt-10 max-md:!grid-cols-2 max-sm:!grid-cols-1"
+          />
+        )}
         <div className="mt-14 border-t border-border/30 pt-6">
           <p className="text-[11px] text-muted-foreground/40">{copyright}</p>
         </div>

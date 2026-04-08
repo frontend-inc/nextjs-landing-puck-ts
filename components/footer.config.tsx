@@ -26,6 +26,46 @@ export default {
   defaultProps: {
     brand: "Acme",
     tagline: "Building the future of work, one tool at a time.",
+    content: [
+      {
+        type: "FooterLinks",
+        props: {
+          id: "FooterLinks-default-001",
+          title: "Product",
+          links: [
+            { label: "Features", href: "#features" },
+            { label: "Pricing", href: "#pricing" },
+            { label: "Changelog", href: "#" },
+            { label: "Docs", href: "#" },
+          ],
+        },
+      },
+      {
+        type: "FooterLinks",
+        props: {
+          id: "FooterLinks-default-002",
+          title: "Company",
+          links: [
+            { label: "About", href: "#" },
+            { label: "Blog", href: "#" },
+            { label: "Careers", href: "#" },
+            { label: "Contact", href: "#" },
+          ],
+        },
+      },
+      {
+        type: "FooterLinks",
+        props: {
+          id: "FooterLinks-default-003",
+          title: "Legal",
+          links: [
+            { label: "Privacy", href: "#" },
+            { label: "Terms", href: "#" },
+            { label: "Cookies", href: "#" },
+          ],
+        },
+      },
+    ],
     copyright: "© 2026 Acme. All rights reserved.",
   },
   render: Footer,
