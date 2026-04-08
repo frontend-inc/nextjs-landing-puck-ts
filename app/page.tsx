@@ -38,6 +38,16 @@ function TestimonialCards({ style, className }: { style?: React.CSSProperties; c
   );
 }
 
+function FooterContent({ style, className }: { style?: React.CSSProperties; className?: string }) {
+  return (
+    <div style={style} className={className}>
+      <FooterLinks title="Product" links={[{ label: "Features", href: "#features" }, { label: "Pricing", href: "#pricing" }, { label: "Changelog", href: "#" }, { label: "Docs", href: "#" }]} />
+      <FooterLinks title="Company" links={[{ label: "About", href: "#" }, { label: "Blog", href: "#" }, { label: "Careers", href: "#" }, { label: "Contact", href: "#" }]} />
+      <FooterLinks title="Legal" links={[{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }, { label: "Cookies", href: "#" }]} />
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background font-body text-foreground">
@@ -49,7 +59,7 @@ export default function Home() {
       <Pricing />
       <Cta />
       <Team />
-      <Footer content={FooterContent} />
+      <Footer content={FooterContent} socials={[{ icon: "RiTwitterXFill", href: "#" }, { icon: "RiGithubFill", href: "#" }, { icon: "RiLinkedinFill", href: "#" }, { icon: "RiInstagramFill", href: "#" }]} />
     </div>
   );
 }

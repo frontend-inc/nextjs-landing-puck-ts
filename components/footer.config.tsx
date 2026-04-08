@@ -17,6 +17,20 @@ export default {
     content: {
       type: "slot",
     },
+    socials: {
+      label: "Social Links",
+      type: "array",
+      arrayFields: {
+        icon: {
+          label: "Icon",
+          type: "text",
+        },
+        href: {
+          label: "URL",
+          type: "text",
+        },
+      },
+    },
     copyright: {
       label: "Copyright",
       type: "text",
@@ -65,6 +79,12 @@ export default {
           ],
         },
       },
+    ],
+    socials: [
+      { icon: "RiTwitterXFill", href: "#" },
+      { icon: "RiGithubFill", href: "#" },
+      { icon: "RiLinkedinFill", href: "#" },
+      { icon: "RiInstagramFill", href: "#" },
     ],
     copyright: "© 2026 Acme. All rights reserved.",
   },
