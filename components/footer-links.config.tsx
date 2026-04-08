@@ -12,6 +12,7 @@ export default {
     links: {
       label: "Links",
       type: "array",
+      getItemSummary: (item: { label: string }) => item.label || "Link",
       arrayFields: {
         label: {
           label: "Label",
